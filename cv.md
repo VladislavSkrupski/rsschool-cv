@@ -30,15 +30,13 @@ private static int[] getCoordinatesFromStringLine(String fileLine) {
 
 ## __Experience__
 
-
-## __Education__ 
+## __Education__
 - __University:__
   - Belarusian State University, Department of physical chemistry of solid state and semiconductors. Researcher
 - __Courses:__
   - Belhard Academy. Programming in Java. Beginner (2021)
   - Belhard Academy. Programming in Java. Professional (2022)
- 
 
-## __Languages__ 
+## __Languages__
 - __Russian__ - _native_
 - __English__ - _B1 (speaking level in progress)_
