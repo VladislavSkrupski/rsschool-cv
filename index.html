@@ -2,8 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CV</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icons/icon.ico">
 </head>
 <body>
+<div class="main-container">
+    <header>
+        <h1>Vladislav Skrupski</h1>
+        <h2>Junior Front-end Developer</h2>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code example</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside class="left-column">
+            <div><img class="avatar" src="images/avatar/Skrupski-Vladislav.jpg" alt="my photo"></div>
+            <section id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>
+                        <b>Location: </b> Minsk, Belarus
+                    </li>
+                    <li>
+                        <b>Phone: </b> +375(29)-3815666
+                    </li>
+                    <li>
+                        <b>Email: </b><a href="mailto:vladislav.skrupski@gmail.com">vladislav.skrupski@gmail.com</a>
+                    </li>
+                    <li>
+                        <b>LinkedIn: </b><a href="https://www.linkedin.com/in/vladislav-skrupski">Vladislav Skrupski</a>
+                    </li>
+                    <li>
+                        <b>GitHub: </b><a href="https://github.com/VladislavSkrupski">Vladislav Skrupski</a>
+                    </li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Java</li>
+                    <li>Spring</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>
+                        <b>Russian</b> - <i>native</i>
+                    </li>
+                    <li>
+                        <b>English</b> - <i>B1 (speaking level in progress)</i>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+        <aside class="right-column">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Within the frame of my last job, I independently and successfully implemented 1 project (stack: Java,
+                    JavaFX, Maven, Git – <a href="https://github.com/VladislavSkrupski/technologData">technologData</a>).
+                    As a part of the completed courses
+                    and
+                    self-study, I also know Spring (Boot, MVC, Data). Despite the long work in the furniture industry,
+                    past
+                    experience, although indirectly, is still connected with the IT sphere. During my work, I solved a
+                    large
+                    number of problems related to the software and production equipment. Configuring postprocessors to
+                    generate control programs for machine tools. Established the infrastructure of electronic document
+                    management between the design engineering department and production. Trained the staff in the work
+                    and
+                    intricacies of work in the Bazis system (Bazissoft), BiesseWorks, Artcam, etc. In my opinion, the
+                    experience and soft skills I have gained may be useful at a future job. Why did I choose the path of
+                    a
+                    developer after a long time? I love complex systems and complex electronics, I like to repair them
+                    and
+                    explore their structure, and software development makes it possible to manage them.</p>
+            </section>
+            <section id="code">
+                <h2>Code Example</h2>
+                <div class="code">
+                    <pre><code>private static int[] getCoordinatesFromStringLine(String fileLine) {
+        return Arrays.stream(fileLine.replaceAll(" ", "")
+                        .split(","))
+                        .mapToInt(Integer::parseInt)
+                        .toArray();
+                    }</code></pre>
+                </div>
+            </section>
+            <section id="experience">
+                <h2>Experience</h2>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>University:
+                        <ul>
+                            <li>Belarusian State University, Department of physical chemistry of solid state and
+                                semiconductors. Researcher
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Courses:
+                        <ul>
+                            <li>Belhard Academy. Programming in Java. Beginner (2021)</li>
+                            <li>Belhard Academy. Programming in Java. Professional (2022)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <a href="https://github.com/VladislavSkrupski" target="_blank">My GitHub</a>
+        <p>&copy; 2022</p>
+        <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="rs school course js" height="30">
+        </a>
+    </footer>
+</div>
 </body>
 </html>
