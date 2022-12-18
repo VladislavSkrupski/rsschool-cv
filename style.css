@@ -1,4 +1,166 @@
-body {
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: 'Almarai';
+    src: url("./fonts/Almarai-Light.ttf");
+    font-weight: 300;
 }
+
+@font-face {
+    font-family: 'Almarai';
+    src: url("./fonts/Almarai-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Almarai';
+    src: url("./fonts/Almarai-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Almarai';
+    src: url("./fonts/Almarai-ExtraBold.ttf");
+    font-weight: 800;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Almarai', sans-serif;
+}
+
+.main-container {
+    min-width: 900px;
+    max-width: 1440px;
+    width: 65%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px -2px #000000;
+}
+
+nav {
+    border-top: 1px solid slategray;
+    border-bottom: 1px solid slategray;
+}
+
+header a {
+    text-decoration: none;
+    color: slategray;
+}
+
+header h1, header h2 {
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5em;
+
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: slategray;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: slategray;
+    list-style: none;
+}
+
+.nav-list li {
+    padding: 10px 20px;
+    /*line-height: 20px;*/
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+aside .left-column {
+    justify-items: left;
+}
+
+.left-column {
+    min-width: 330px;
+    width: 300px;
+    font-weight: 400;
+    background: #d9d9d9;
+}
+
+aside .right-column {
+    justify-items: center;
+    width: 100%;
+}
+
+aside div {
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 200px;
+    padding: 10px;
+}
+
+#skills {
+    font-weight: bold;
+}
+
+section h2 {
+    margin: 10px;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: slategray;
+    justify-content: left;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+.code {
+    padding: 15px;
+    background-color: #eeeeee;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: slategray;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
